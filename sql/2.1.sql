@@ -14,7 +14,7 @@ CREATE TABLE `yunzhi_teacher` (
   `create_time` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '创建时间',
   `update_time` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '更新时间',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `username_unqinteacher_username_unique` (`username`)
+  UNIQUE KEY `teacher_username_unique` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
